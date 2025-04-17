@@ -28,7 +28,7 @@
 The architecture of FinancialFlow is primarily based on **Next.js** for server-side rendering and routing. It uses **Typescript** to build reusable components and **Framer Motion** for smooth animations. Data visualizations are powered by **Chart.js**, and persistent data is handled through **local storage**.
 
 ### Key Highlights:
-- **Frontend**: Built with **Typescript** and **Next.js** for fast and responsive experiences.
+- **Frontend and Database**: Built with **Typescript** and **Next.js** and **MangoDB** for fast and responsive experiences.
 - **State Management**: Implemented using React Hooks (`useState`, `useEffect`) for local state.
 - **Modular UI**: Reusable components ensure scalability and maintainability.
 - **Animations**: Powered by **Framer Motion** for smooth transitions.
@@ -43,23 +43,6 @@ The application leverages modern technologies to deliver an intuitive user exper
 - **Icons**: Lucide-react for icons throughout the UI
 - **Styling**: Tailwind CSS and CSS modules for clean and responsive styling
 - **Local Storage**: Persistent data storage on the client side
-
-## 4. Key Features and Implementation
-
-### ✨ **Income and Expense Tracking**:
-- Users can log transactions, which are immediately reflected in their balance and monthly summaries.
-  
-### 🛠 **Budget Management**:
-- Users can define budget limits for different spending categories and monitor their actual spending against those limits.
-
-### 🎯 **Goal Setting**:
-- Set long-term financial goals (e.g., saving for a house) and track progress using a visual goal tracker.
-
-### 📊 **Data Visualization**:
-- Multiple chart types (Line, Bar, Doughnut, and Radar) give users a visual representation of income, expenses, and savings over time.
-
-### 💰 **Financial Health Score**:
-- The app calculates a financial health score based on the user's spending, savings, and debt ratios. This score is dynamically updated as the user's financial habits change.
 
 ## 5. State Management
 
@@ -140,27 +123,3 @@ Here are some planned features and improvements for **FinancialFlow**:
 - **Multi-Currency Support**: Add support for tracking transactions in multiple currencies, with automatic exchange rate conversions.
 - **Expense Categorization Automation**: Automatically categorize expenses based on transaction descriptions using AI-powered classification.
 - **Financial Reports**: Generate detailed reports for specific time periods, allowing users to export their financial data.
-
-## 13. Contributing
-
-Contributions to **FinancialFlow** are welcome! Follow these steps to contribute:
-
-1. **Fork** the repository on GitHub.
-2. **Create a feature branch** (`git checkout -b feature-branch`).
-3. **Commit your changes** with descriptive messages.
-4. **Push to the branch** (`git push origin feature-branch`).
-5. **Submit a pull request** to the main repository.
-
-Please ensure all new code includes appropriate tests and adheres to the project's coding standards.
-
-## 14. License
-
-This project is licensed under the **MIT License**. You are free to use, and distribute this software, but attribution to the original author is required.
-
-## 15. Contact
-
-If you have any questions, feedback, or suggestions, feel free to reach out:
-
-- **Sunny Patel**: [sunnypatel124555@gmail.com](mailto:sunnypatel124555@gmail.com)
-
-You can also contribute or report issues directly via the [GitHub repository](https://github.com/sunnypatell/financialflow).
